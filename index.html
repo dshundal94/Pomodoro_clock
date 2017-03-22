@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name='viewport' content='width=device-width' />
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pomodoro Clock</title>
+  
+</head>
+
+<body id = 'home'>
+  <header>
+    <div id = "top">
+    <h1 id = "title">Pomodoro Clock</h1>
+    <a rel="nofollow" rel="noreferrer"id = "logo" href = "https://www.linkedin.com/in/damanjithundal/" target = "_blank">by Damanjit Hundal</a>
+    </div>
+    <div id = "upper">
+      <div id = "rest">REST</div>
+      <div id = "work">WORK</div>
+    </div>
+    <div id = "middle">
+      <div id = "left">
+        <button id = "restAdd" value= '+'>+</button>
+        <div id = "restDisplay"></div>
+        <button id = "restMinus" value= '-'>-</button>
+      </div>
+      <div id = "right">
+        <button id = 'workAdd' value= '2+'>+</button>
+        <div id = "workDisplay"></div>
+        <button id = "workMinus" value= '2-'>-</button>
+      </div>
+      <div id = "center"></div>
+    </div>
+    <div id = "lower">
+      <button  id  = "start"></button>
+      <button class="btn btn-control hidden" id = "reset" >RESET</button>
+    </div>
+  </header>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
